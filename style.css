@@ -10,10 +10,29 @@ button{
     width: 20vw;
     height: 8vh;
     font-size: large;
-    
 }
 
 .button{
     writing-mode: vertical-lr;
     margin: auto;
+}
+
+
+#timer{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: darkred;
+}
+
+#scoreboard{
+    margin-bottom: 30px;
+    color: steelblue;
+}
+
+#correctBtn{
+    background-color: mediumseagreen;
+}
+
+#passBtn{
+    background-color: tomato;
 }

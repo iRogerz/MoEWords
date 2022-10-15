@@ -12,14 +12,30 @@
 
 <body>
   <div class="box">
-    <h1></h1>
-    <h2></h2>
-    <div class = "button">
-      <button class="word">new word</button>
-      <button class="hint">hint</button>
+
+    <div id="scoreboard">
+      <h3 style="display: inline">Score </h3>
+      <h1 id="score" style="display: inline">0</h1>
     </div>
 
+    <h1 id="word"></h1>
+    <h4 id="hint"></h4>
+    <div class = "button">
+      <button class="word" id="correctBtn">Correct</button>
+      <button class="word" id="passBtn">Pass</button>
+      <button class="hint">Hint</button>
+    </div>
+
+    <div id="timer">
+      <h1 id="second"></h1>
+      <input id="inputText" type="number" placeholder="請設定時間">
+      <button id="startBtn" class="button">Start</button>
+    </div>
+
+    <button id="reset">Reset</button>
+
   </div>
+  
 
   <script type="module" src="script.js" charset="utf-8"></script>
 </body>
