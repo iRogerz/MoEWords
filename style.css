@@ -1,38 +1,37 @@
-.box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-button{
-    width: 20vw;
-    height: 8vh;
-    font-size: large;
+button {
+  width: 20vw;
+  height: 8vh;
+  font-size: large;
 }
 
-.button{
-    writing-mode: vertical-lr;
-    margin: auto;
+.button {
+  writing-mode: vertical-lr;
+  margin: auto;
 }
 
-
-#timer{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: darkred;
+#timer {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: darkred;
 }
 
-#scoreboard{
-    margin-bottom: 30px;
-    color: steelblue;
+#scoreboard {
+  margin-bottom: 30px;
+  color: steelblue;
 }
 
-#correctBtn{
-    background-color: mediumseagreen;
+#correctBtn {
+  background-color: mediumseagreen;
 }
 
-#passBtn{
-    background-color: tomato;
+#passBtn {
+  background-color: tomato;
 }

@@ -1,43 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-</head>
+  <body>
+    <div class="box">
+      <div id="scoreboard">
+        <h3 style="display: inline">Score</h3>
+        <h1 id="score" style="display: inline">0</h1>
+      </div>
 
-<body>
-  <div class="box">
+      <h1 id="word"></h1>
+      <h4 id="hint"></h4>
+      <div class="button">
+        <button class="word" id="correctBtn">Correct</button>
+        <button class="word" id="passBtn">Pass</button>
+        <button class="hint">Hint</button>
+      </div>
 
-    <div id="scoreboard">
-      <h3 style="display: inline">Score </h3>
-      <h1 id="score" style="display: inline">0</h1>
+      <div id="timer">
+        <h1 id="second"></h1>
+        <input id="inputText" type="number" placeholder="請設定時間" />
+        <button id="startBtn" class="button">Start</button>
+      </div>
+
+      <button id="reset">Reset</button>
     </div>
 
-    <h1 id="word"></h1>
-    <h4 id="hint"></h4>
-    <div class = "button">
-      <button class="word" id="correctBtn">Correct</button>
-      <button class="word" id="passBtn">Pass</button>
-      <button class="hint">Hint</button>
-    </div>
-
-    <div id="timer">
-      <h1 id="second"></h1>
-      <input id="inputText" type="number" placeholder="請設定時間">
-      <button id="startBtn" class="button">Start</button>
-    </div>
-
-    <button id="reset">Reset</button>
-
-  </div>
-  
-
-  <script type="module" src="script.js" charset="utf-8"></script>
-</body>
-
+    <script type="module" src="script.js" charset="utf-8"></script>
+  </body>
 </html>
